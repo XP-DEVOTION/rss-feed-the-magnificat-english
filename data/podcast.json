@@ -1,110 +1,687 @@
 {
   "channel": {
-    "title": "OpenCast Feed Engine",
-    "link": "https://example.com",
+    "title": "The Magnificat",
+    "link": "https://themagnificat.dailyaudio.cf/",
     "language": "en-us",
-    "description": "OpenCast Feed Engine is a lightweight, JSON-driven podcast publishing system that gives creators full control over their RSS feed. Define your show and episodes in a single JSON file, deploy through any modern workflow, and instantly generate a standards-compliant RSS feed for Apple Podcasts, Spotify, and all major podcast apps.",
-    "feedUrl": "https://yourdomain.com/api/rss",
-    "author": "Podcast Creator",
-    "summary": "A flexible, creator-friendly podcast feed system powered by JSON and serverless functions.",
+    "description": "The Magnificat Audio Series is a year‑round devotional companion rooted in Mary’s prayer: “My soul proclaims the greatness of the Lord.” Each episode offers a simple, contemplative moment of praise—whether for the month, for the days of Advent, or for the Christmas Octave. This evergreen collection includes: • Monthly Magnificat reflections for January through November • Daily Magnificat prayers for December 1–24 • The full Christmas Octave from December 25 to January 1 You can follow along each day at https://themagnificat.dailyaudio.cf/, where the correct month and date are displayed automatically. The website updates like a live devotional guide, helping you pray the Magnificat in harmony with the liturgical season. Designed for quiet reflection, personal prayer, and daily renewal, the Magnificat Audio Series invites you to pause, breathe, and join Mary in praising God’s faithfulness. Suitable for all seasons and all years, this series remains timeless, prayerful, and always available whenever you need a moment of grace.",
+    "feedUrl": "https://rss-feed-the-magnificat-english.vercel.app/api/rss",
+    "author": "Eric Kouassi",
+    "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
     "owner": {
-      "name": "Podcast Creator",
-      "email": "creator@example.com"
+      "name": "Eric Kouassi",
+      "email": "hello@erickouassi.com"
     },
-    "image": "https://yourdomain.com/images/podcast-cover.jpg",
+    "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
     "category": {
-      "main": "Education",
-      "sub": "Self-Improvement"
+      "main": "Religion & Spirituality",
+      "sub": "Christianity"
     },
     "explicit": false,
     "type": "episodic",
-    "copyright": "&#xA9; 2026 Podcast Creator",
-    "lastBuildDate": "Thu, 26 Feb 2026 09:00:00 -0500",
-    "podcastGuid": "opencast-show-guid-001",
+    "copyright":"&#xA9; 2026 Eric Kouassi",
+    "lastBuildDate": "Mon, 26 Jan 2026 10:00:00 -0500",
+    "podcastGuid": "b15a070b-31df-5342-99ff-ed050d0fd06d",
     "locked": "yes",
     "funding": [
-  {
-    "url": "https://www.patreon.com/yourpodcast",
-    "text": "Support the Show"
+      {
+        "url": "https://ko-fi.com/erickouassi",
+        "text": "Support the Show by Buying Me a Coffee"
+      },
+      {
+        "url": "https://paypal.me/247erickouassi",
+        "text": "Support the Show via PayPal"
+      },
+      {
+        "url": "https://cash.app/$kerickouassi",
+        "text": "Support the Show via CashApp"
+      }
+    ]
   },
-  {
-    "url": "https://buymeacoffee.com/yourpodcast",
-    "text": "Buy Me a Coffee"
-  }
-]
-  },
-
   "episodes": [
     {
-      "title": "Welcome to OpenCast",
-      "link": "https://example.com/episodes/welcome",
-      "description": "<p>This introductory episode explains how the OpenCast Feed Engine works, why it was created, and how you can use it to publish your own podcast with full control and zero platform lock-in.</p>",
-      "audioUrl": "https://example.com/audio/episode1.mp3",
-      "audioLength": 4321987,
+      "title": "Magnificat Audio – Episode 01 January",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774396796553-61556b73-963e-4add-b776-f6cf2e0dc32e.mp3",
+      "audioLength": 6397004,
       "audioType": "audio/mpeg",
-      "guid": "opencast-episode-001",
-      "pubDate": "Mon, 01 Jan 2024 10:00:00 -0500",
-      "author": "Podcast Creator",
-      "subtitle": "A quick introduction to the project",
-      "summary": "Learn what OpenCast is and how it empowers creators.",
-      "duration": "1800",
+      "guid": "magnificat-audio-episode-01",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 320,
       "explicit": false,
       "episode": 1,
       "season": 1,
       "episodeType": "full",
-      "image": "https://example.com/episode1.jpg",
-      "transcript": {
-        "url": "https://example.com/transcripts/episode1.txt",
-        "type": "text/plain"
-      }
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"",
+            "type":"text/plain"
+         }
     },
-
     {
-      "title": "Structuring Your Podcast in JSON",
-      "link": "https://example.com/episodes/json-structure",
-      "description": "<p>This episode walks through the JSON structure used by OpenCast, including channel metadata, episode fields, artwork, and publication settings.</p>",
-      "audioUrl": "https://example.com/audio/episode2.mp3",
-      "audioLength": 3987654,
+      "title": "Magnificat Audio – Episode 02 February",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774397189454-6ed684ad-bf4b-4060-a1d3-0ef622b4b31f.mp3",
+      "audioLength": 2092764,
       "audioType": "audio/mpeg",
-      "guid": "opencast-episode-002",
-      "pubDate": "Mon, 08 Jan 2024 10:00:00 -0500",
-      "author": "Podcast Creator",
-      "subtitle": "Understanding the JSON schema",
-      "summary": "A practical guide to organizing your podcast data.",
-      "duration": "2100",
+      "guid": "magnificat-audio-episode-02",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 131,
       "explicit": false,
       "episode": 2,
       "season": 1,
       "episodeType": "full",
-      "image": "https://example.com/episode2.jpg",
-      "transcript": {
-        "url": "https://example.com/transcripts/episode2.txt",
-        "type": "text/plain"
-      }
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-02-february.txt",
+            "type":"text/plain"
+         }
     },
-
     {
-      "title": "Behind the Scenes: Serverless RSS Generation",
-      "link": "https://example.com/episodes/serverless",
-      "description": "<p>In this bonus episode, we explore how the serverless function transforms JSON into a fully valid RSS feed, and how this approach keeps your workflow simple and scalable.</p>",
-      "audioUrl": "https://example.com/audio/bonus1.mp3",
-      "audioLength": 2987654,
+      "title": "Magnificat Audio – Episode 03 March",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774397382751-d2f32356-3e94-4567-93b3-f0cd7552e047.mp3",
+      "audioLength": 1990782,
       "audioType": "audio/mpeg",
-      "guid": "opencast-episode-bonus-001",
-      "pubDate": "Fri, 12 Jan 2024 10:00:00 -0500",
-      "author": "Podcast Creator",
-      "subtitle": "A look at the engine under the hood",
-      "summary": "How JSON becomes XML through a serverless function.",
-      "duration": "1200",
+      "guid": "magnificat-audio-episode-03",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 124,
       "explicit": false,
       "episode": 3,
       "season": 1,
-      "episodeType": "bonus",
-      "image": "https://example.com/bonus1.jpg",
-      "transcript": {
-        "url": "https://example.com/transcripts/bonus1.txt",
-        "type": "text/plain"
-      }
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-03-march.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 04 April",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774397578072-9d2a752f-b37e-49fd-9563-b9260dd96f96.mp3",
+      "audioLength": 1152774,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-04",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 72,
+      "explicit": false,
+      "episode": 4,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-04-april.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 05 May",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774397723846-913840b2-7e65-4379-8658-d9724a0b7bce.mp3",
+      "audioLength": 1118501,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-05",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 70,
+      "explicit": false,
+      "episode": 5,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-05-may.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 06 June",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774397981010-dbf48edb-1e9f-4c67-b2cb-1eeae4eb00ee.mp3",
+      "audioLength": 1143997,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-06",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 71,
+      "explicit": false,
+      "episode": 6,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-06-june.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 07 July",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774398132218-ceaefd2f-99a6-4111-b767-f9e1f49eda35.mp3",
+      "audioLength": 2366945,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-07",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 148,
+      "explicit": false,
+      "episode": 7,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-07-july.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 08 August",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774398247055-b0ab5bbb-a46f-4f8d-aca4-12328343ff2f.mp3",
+      "audioLength": 3127213,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-08",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 195,
+      "explicit": false,
+      "episode": 8,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-08-august.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 09 September",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774398355989-7866ea1d-ab93-4998-b887-6c0c65a03b88.mp3",
+      "audioLength": 3095030,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-09",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 193,
+      "explicit": false,
+      "episode": 9,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-09-september.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 10 October",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774398498790-14cd9893-49bc-4b68-8b33-b207d80fcef9.mp3",
+      "audioLength": 2976330,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-10",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 186,
+      "explicit": false,
+      "episode": 10,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-10-october.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 11 November",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774398622921-61a6da62-7da4-450b-9c69-ce5bb805c9c0.mp3",
+      "audioLength": 3207461,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-11",
+      "pubDate": "Mon, 05 Jan 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Monthly Magnificat Prayer",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 200,
+      "explicit": false,
+      "episode": 11,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-11-november.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 12 Dec 1–16",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774399317056-09346b6b-0dc4-4de5-9bb2-d92c3fcada72.mp3",
+      "audioLength": 1928506,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-12",
+      "pubDate": "Mon, 16 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Advent Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 120,
+      "explicit": false,
+      "episode": 12,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-01-to-16-december.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 13 Dec 17",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774399479956-b0c64654-44bc-4b92-a8c4-ff5a2b5c6162.mp3",
+      "audioLength": 2219824,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-13",
+      "pubDate": "Tue, 17 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Advent Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 139,
+      "explicit": false,
+      "episode": 13,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-17-december.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 14 Dec 18",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+            "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774399608733-ad014acb-20d3-4929-bac3-4eee5c4653d7.mp3",
+      "audioLength": 1879605,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-14",
+      "pubDate": "Wed, 18 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Advent Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 117,
+      "explicit": false,
+      "episode": 14,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-18-december.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 15 Dec 19",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774400589446-c6c6ad8a-d304-41ed-a517-226a168ffc8f.mp3",
+      "audioLength": 2023801,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-15",
+      "pubDate": "Thu, 19 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Advent Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 126,
+      "explicit": false,
+      "episode": 15,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-19-december.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 16 Dec 20",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774492614671-5d5b2ee3-97ef-44af-8d27-5367737242d8.mp3",
+      "audioLength": 1827360,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-16",
+      "pubDate": "Fri, 20 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Advent Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 144,
+      "explicit": false,
+      "episode": 16,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-20-december.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 17 Dec 21",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774492762911-5c5dfc7e-a0b6-481e-95ab-a1a03b66785e.mp3",
+      "audioLength": 1923491,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-17",
+      "pubDate": "Sat, 21 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Advent Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 120,
+      "explicit": false,
+      "episode": 17,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-21-december.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 18 Dec 22",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774492835169-58e0ffc0-392b-47fb-93b0-0f36f8b4b95b.mp3",
+      "audioLength": 1979915,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-18",
+      "pubDate": "Sun, 22 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Advent Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 124,
+      "explicit": false,
+      "episode": 18,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-22-december.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 19 Dec 23",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774492931811-1aa49791-0c06-4ea6-90ad-d8d19ba5f8cd.mp3",
+      "audioLength": 1719109,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-19",
+      "pubDate": "Mon, 23 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Advent Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 107,
+      "explicit": false,
+      "episode": 19,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-23-december.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 20 Dec 24",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774493016258-5b8bb28f-29a5-4687-b00f-27b92e6f7c15.mp3",
+      "audioLength": 2167161,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-20",
+      "pubDate": "Tue, 24 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Advent Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 135,
+      "explicit": false,
+      "episode": 20,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-24-december.txt",
+            "type":"text/plain"
+         }
+    },
+
+    {
+      "title": "Magnificat Audio – Episode 21 Octave Day 1",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774493119762-032a0a2c-f245-4680-81e7-ea3ca8db3a70.mp3",
+      "audioLength": 1796849,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-21",
+      "pubDate": "Wed, 25 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Christmas Octave Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 112,
+      "explicit": false,
+      "episode": 21,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-dec25-octave-01.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 22 Octave Day 2",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774493205012-b858fc8a-4854-4c32-8824-fbe52bdf39d8.mp3",
+      "audioLength": 1652653,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-22",
+      "pubDate": "Thu, 26 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Christmas Octave Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 103,
+      "explicit": false,
+      "episode": 22,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-dec26-octave-02.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 23 Octave Day 3",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774493294372-0df89ff3-881e-4bb0-81a4-a21ac9c96c11.mp3",
+      "audioLength": 1868320,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-23",
+      "pubDate": "Fri, 27 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Christmas Octave Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 117,
+      "explicit": false,
+      "episode": 23,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-dec27-octave-03.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 24 Octave Day 4",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774493391015-db2ee156-d0fd-493c-8ddc-1c186fd9a6bb.mp3",
+      "audioLength": 1918057,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-24",
+      "pubDate": "Sat, 28 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Christmas Octave Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 120,
+      "explicit": false,
+      "episode": 24,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-dec28-octave-04.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 25 Octave Day 5",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774493486899-dcab74fa-1b0b-47df-ad11-175c2aa3f746.mp3",
+      "audioLength": 1579092,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-25",
+      "pubDate": "Sun, 29 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Christmas Octave Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 99,
+      "explicit": false,
+      "episode": 25,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-dec29-octave-05.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 26 Octave Day 6",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774495467383-ef35cbbc-8dca-4692-9551-eed44663dfaa.mp3",
+      "audioLength": 1849930,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-26",
+      "pubDate": "Mon, 30 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Christmas Octave Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 116,
+      "explicit": false,
+      "episode": 26,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-dec30-octave-06.txt",
+            "type":"text/plain"
+         }
+    },
+    {
+      "title": "Magnificat Audio – Episode 27 Octave Day 7",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774495571973-78073110-2eb9-420e-a04e-f4750a1f4868.mp3",
+      "audioLength": 1632173,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-27",
+      "pubDate": "Tue, 31 Dec 2026 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Christmas Octave Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 102,
+      "explicit": false,
+      "episode": 27,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-dec31-octave-07.txt",
+            "type":"text/plain"
+         }
+    },
+       {
+      "title": "Magnificat Audio – Episode 28 Octave Day 8",
+      "link": "https://themagnificat.dailyaudio.cf/",
+      "description": "A simple, contemplative audio prayer of the Magnificat, offered daily as a moment of praise, stillness, and renewal. Rooted in Mary’s song — “My soul proclaims the greatness of the Lord” — this series guides you through monthly reflections, Advent days, and the Christmas Octave with quiet devotion and timeless simplicity.",
+      "audioUrl": "https://op3.dev/e/image2url.com/r2/default/audio/1774495679380-d7f0d53c-2f7a-4395-a355-da095d6109ad.mp3",
+      "audioLength": 2762924,
+      "audioType": "audio/mpeg",
+      "guid": "magnificat-audio-episode-28",
+      "pubDate": "Wed, 01 Jan 2027 10:00:00 -0500",
+      "author": "Eric Kouassi",
+      "subtitle": "Christmas Octave Magnificat",
+      "summary": "A daily audio prayer of the Magnificat, inviting you into stillness, praise, and renewal throughout the year.",
+      "duration": 138,
+      "explicit": false,
+      "episode": 28,
+      "season": 1,
+      "episodeType": "full",
+      "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
+         "transcript":{
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-12-jan01-octave-08.txt",
+            "type":"text/plain"
+         }
     }
   ]
 }
