@@ -13,7 +13,7 @@
     },
     "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
     "category": {
-      "main": "Religion & Spirituality",
+      "main":"Religion &amp; Spirituality",
       "sub": "Christianity"
     },
     "explicit": false,
