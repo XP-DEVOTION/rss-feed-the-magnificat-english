@@ -57,7 +57,7 @@
       "episodeType": "full",
       "image": "https://raw.githubusercontent.com/XP-DEVOTION/rss-feed-the-magnificat-english/main/images/podcast-cover.jpg",
          "transcript":{
-            "url":"",
+            "url":"https://raw.githubusercontent.com/XP-DEVOTION/Magnificat-English-Playlist/refs/heads/main/scripts/magnificat-01-january.txt",
             "type":"text/plain"
          }
     },
